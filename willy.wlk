@@ -4,6 +4,9 @@ object willy{
 // willy wonka
     const oompasContratados=#{}
     const proyectos=#{cadbury}
+    method aceptar(unProyecto){
+        proyectos.add(unProyecto)
+    }
     method contratarA(unOompa){
       oompasContratados.add(loompedin.buscarA(unOompa))
       loompedin.quitarA(unOompa)
